@@ -1,0 +1,164 @@
+#body{
+    overflow-x: hidden;
+}
+    
+*{
+    margin:0px;
+}
+
+.navbar {  
+    box-sizing: border-box;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    text-decoration-color: white;
+    border-bottom: 2px solid #FFFFFF;
+    position:sticky;
+    z-index: 100;
+}
+
+
+.home-text > h1{
+    color:white;
+    font-weight:700;
+    font-size: 20vh;
+    padding-left: 50px;
+    padding-top: 75px;
+    position: relative;
+}
+
+.home-text > h1{
+    animation:fade-in 2s;
+}
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.home-img{
+    width: 40vw;
+    height: 40vh;
+    left: 994vh;
+    top: 602vh;
+    background: url(pngegg.png);
+}
+
+.home-img img {
+    max-width: 80%;
+    min-height: 80%;
+    margin-left: 25vw;
+    margin-top:50vh;
+    position: relative;
+}
+
+#arrow{
+    width:15px;
+    position: relative;
+}
+
+.aboutUs{
+    background:white;
+    margin-top: 8vh;
+    padding-top: 15vh;
+    padding-left:5vw;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+}
+
+.about-img {
+    height: 25rem;
+    width: 25rem;
+    margin-bottom: 10vh;
+    margin-right: 5vw;
+}
+  
+.about-img img {
+    max-width: 100%;
+    min-height: 100%;
+    position:relative;
+    padding-right: 5vw;
+}
+  
+.about-text{
+    color:black;
+}
+.about-text > h1{
+    color:black;
+}
+.about-img {
+    margin-right: 10rem;
+  }
+
+.ourServices{
+    padding-top:10vh;
+    padding-left: 5vw;
+    background-color:white;
+    padding-bottom: 10vh;
+    position: relative;
+  }
+
+.ourServices > h2 {
+    color:#000000;
+    padding-bottom: 10px;
+}
+
+.card{
+    background-color:white;
+    border-radius:0%;
+    color:#000000;
+}
+
+.card:hover {
+    color:white;
+    transition-duration: 0.3s;
+    background-color:black;
+}
+
+.card-title{
+    color:#000000;
+} 
+
+.card-title:hover{
+    color:white;
+    transition-duration: 0.3s;
+}
+.contactUs{
+    padding-top:5vh;
+    padding-bottom:10vh;
+}
+
+.form{
+    margin-left: 20vw;
+}
+
+.form-group{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.form-details{
+    background-color:black;
+    border: 1px solid grey; 
+    border-radius: 0px;
+}
+
+.btn{
+    background-color:white;
+    color:black;
+    border-radius: 0px;
+}
+
+.scroll-container{
+    width: 85vw;
+    height: 45vh;
+    margin-inline: auto;
+    overflow-x: scroll;
+}
+
+.scroll-container > .card{
+    overflow-x: auto;
+    white-space: wrap;
+}
+
+
